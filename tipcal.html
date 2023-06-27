@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="tipcal.css" />
+    <title>TipCal</title>
+  </head>
+  <body>
+    <header class="header">
+      <span class="material-symbols-outlined">calculate</span>
+      <h1>TipCal</h1>
+    </header>
+    <div class="container">
+      <h3>Tip Caculator</h3>
+      <p>Enter The Bill Amount And Tip Percentage To Caculate The Total</p>
+      <label for="bill">Bill Amount:</label>
+      <input type="number" id="bill" /><br />
+      <label for="tip ">Tip Percentage:</label>
+      <input type="number" id="tip" /><br />
+      <button id="calculate">Calculate</button><br />
+      <label for="total">Total:</label>
+      <span id="total"></span>
+    </div>
+
+    <footer>
+      <p class="footer">
+        <a href="https://dani5inq.github.io/Port/port.html"
+          >Dani5inq <span id="hat">&#10084;</span></a
+        >
+      </p>
+    </footer>
+
+    <script src="tipcal.js"></script>
+  </body>
+</html>
